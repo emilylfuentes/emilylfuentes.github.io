@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/mystyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:700%7COpen+Sans%7CFredericka+the+Great" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/css/lightslider.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/js/lightslider.js"></script>
+
+    <style>
+        .viewme {
+            background-color: rgba(155, 205, 211, 0.9);
+            padding: 0 5px;
+            margin: 0 0 0 5px;
+            position: absolute;
+            bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        a.viewme {
+            color: white;
+        }
+
+        a:hover.viewme {
+            color: cornflowerblue;
+        }
+
+        #lightSlider li img {
+            max-height: 180px;
+            object-fit: contain;
+        }
+
+        .lSSlideOuter .lSPager.lSpg>li a {
+            background-color: #dddddd;
+        }
+
+        .lSSlideOuter .lSPager.lSpg>li:hover a,
+        .lSSlideOuter .lSPager.lSpg>li.active a {
+            background-color: cornflowerblue;
+        }
+    </style>
+    <title>Em Fuentes </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1> <a href="index.html"> ELF </a></h1>
+            <nav>
+                <ul>
+                    <li><a href="graphics.html">Graphics</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2> Featured work!</h2>
+                <ul id="lightSlider">
+                    <li><a class="viewme" href="graphics_1.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/Fuentes_1icon_d12-1.png" alt="Goudy Icon Poster for Typography Course at TCNJ">
+                    </li>
+                    <li> <a class="viewme" href="graphics_2.html">View Project</a><img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/Fuentes_Type_Specimen_Book_D8-1.png" alt="Goudy Type S pecimen Book for Typography Course at TCNJ">
+                    </li>
+                    <li> <a class="viewme" href="graphics_3.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/Fuentes_Poster_D3-1.png" alt="Design Culture Now Poster for Typography Course at TCNJ">
+                    </li>
+                    <li><a class="viewme" href="graphics_4.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/AVB_Type1_FuentesEmily_7-1.png" alt="Philly Magazine Mock Up for Typography Course at TCNJ">
+                    </li>
+                    <li><a class="viewme" href="videos_1.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/videoone.jpg" alt="Jill Santacroe Martial Artist">
+                    </li>
+                    <li><a class="viewme" href="videos_2.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/videotwo.jpg" alt="I Remember...">
+                    </li>
+                    <li><a class="viewme" href="videos_3.html">View Project</a>
+                        <img src="http://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/images/videothree.jpg" alt="Gone">
+                    </li>
+                </ul>
+            </section>
+
+            <h3> <a href="http://validator.w3.org/check?uri=referer"> Validator</a>
+            </h3>
+        </main>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#lightSlider').lightSlider({
+                item: 3
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

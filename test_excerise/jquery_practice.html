@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ext. Links</title>
+</head>
+
+<body>
+    <h2>Ext. Links</h2>
+
+
+    
+    <h3>Int. Links</h3>
+    <ul>
+        <li><a href="http://www.forever21.com">Forever 21</a></li>
+        <li><a href="http://www.facebook.com">Facebook.com</a></li>
+    </ul>
+
+
+    
+    <h3>Ext. Link</h3>
+    <ul>
+        <li><a class="external" href="http://www.twitter.com">Twitter</a></li>
+        <li><a class="external" href="https://www.cnn.com/videos/entertainment/2018/04/04/dwayne-the-rock-johnson-celebrity-crush-frances-mcdormand.hln">The Rock Reveals Celeb Crush</a></li>
+
+    </ul>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script>
+       $("a").attr("target", "_blank");  // ALL a hrefs 
+       $(".external").attr("target","_blank");  // Only a hrefs with "external" css class
+    </script>
+</body>
+
+</html>
