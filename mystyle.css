@@ -128,8 +128,8 @@ img {width: 100%;
 .myimage
 { position:absolute;
 padding: 1em;
-width: 75%;
-height: 75%;}
+max-width: 210px;
+max-height: 299px;}
 
 .row    {border-radius: 5px;
     padding: 20px;
