@@ -10,8 +10,8 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
-}
+    user-select: none; 
+padding-bottom: 20px;}
 .lightSlider:before, .lightSlider:after {
     content: " ";
     display: table;
