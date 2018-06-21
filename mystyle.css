@@ -126,8 +126,7 @@ img {width: 100%;
     border: none;}
 
 .myimage
-{ position:absolute;
-padding: 1em;
+{
 max-width: 210px;
 max-height: 299px;}
 
