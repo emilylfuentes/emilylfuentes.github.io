@@ -125,8 +125,12 @@ img {width: 100%;
     padding: 1em;
     border: none;}
 
+.myimage
+{ position:absolute;
+padding: 1em;
+width: 75%;
+height: 75%;}
 
-    
 .row    {border-radius: 5px;
     padding: 20px;
 }
