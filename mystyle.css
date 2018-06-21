@@ -126,7 +126,8 @@ img {width: 100%;
     border: none;}
 
 .myimage
-{
+{ display:block;
+margin:auto;
 max-width: 210px;
 max-height: 299px;}
 
