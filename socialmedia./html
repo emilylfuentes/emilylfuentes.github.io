@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:700%7COpen+Sans%7CFredericka+the+Great" rel="stylesheet">
+    <title>Videos - Emily Fuentes </title>
+</head>
+
+<body>
+    <div class="wrapper"> 
+<header>
+    <h1> <a href="index.html"> Emily Fuentes </a></h1>
+    <nav>
+    <ul>
+        <li><a href="graphics.html">Graphics</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav> 
+</header>
+    
+<main>
+    <section>
+        <h2>Social Media</h2>
+        <div class="imagegridtwo">
+        <a href="videos_4.html"> <img src="images/videofour.png" alt="The Royal Flush"> </a>
+        <a href="videos_3.html"> <img src="images/videothree.jpg" alt="Gone Video for Campus Movie Fest"> </a>
+        <a href="videos_5.html"> <img src="images/videofive.png" alt="Recruitment Video"> </a>
+        <a href="videos_1.html"> <img src="images/videoone.jpg" alt="Jill Santacroe: Martial Artist "> </a>
+        <a href="videos_2.html"> <img src="images/videotwo.jpg" alt="I Remember Video for Campus Movie Fest"></a>   
+        <a href="videos_6.html"> <img src="images/videosix.png" alt="The Weekly What"></a>
+        </div>  
+    </section> 
+</main>
+</div> 
+</body>
+  
+</html>
