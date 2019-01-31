@@ -126,6 +126,7 @@ img {width: 100%;
 .embed-container embed { position: absolute;
     left: 50%;
     top: 50%;
+    bottom: 50%;
     transform: translate(-50%, -50%);
     width: 80%; 
     height: 100%;
