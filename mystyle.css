@@ -116,8 +116,7 @@ img {width: 100%;
             border: 2px solid grey;
             margin: auto;}
 
-.embed-container { position: relative; 
-    padding-bottom: 56.25%; 
+.embed-container { position: relative;  
     height: 0; 
     overflow: hidden; 
     max-width: 100%; 
