@@ -125,6 +125,7 @@ img {width: 100%;
 .embed-container iframe, 
 .embed-container object, 
 .embed-container embed { position: absolute;
+    margin-bottom: 30%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
