@@ -21,7 +21,7 @@ a:hover {
     width: 80%;
     margin: 40px auto;
     border: 2px solid grey;
-   }
+    margin-bottom: 20px;}
 
 header {border-bottom: 2px solid grey;
     padding: 0;
