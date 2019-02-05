@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+<!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3709100, 2019-01-31T13:36:40-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BebasNeue by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue/regular/
+ * Copyright: Copyright (c) 2010 by Ryoichi Tsunekawa. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3709100
+ * 
+ * © 2019 MyFonts Inc
+*/
+-->
+    
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:700%7COpen+Sans%7CFredericka+the+Great" rel="stylesheet">
+    <title>The Weekly What - Emily Fuentes </title>
+
+</head>
+
+<body> 
+    <div class="wrapper"> 
+<header>
+    <h1> <a href="index.html"> Emily Fuentes </a></h1>
+    <nav>
+    <ul>
+        <li><a href="graphics.html">Graphics</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="socialmedia.html">Social Media</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+</header>
+    
+<main>
+    <section class="centerimg">
+    <h2> The Weekly What 10-30-15</h2>
+    <div class="c">
+    <p>Lifestyle Show for Lions Televison. Producer/Showrunner/Editor.</p>
+    </div>    
+     <div class='embed-container'><iframe src='https://www.youtube.com/embed/0lC0nEqvzx4' allowfullscreen></iframe>
+    </div> 
+    </section>
+</main> 
+</div>
+</body>
+</html>
