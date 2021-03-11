@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    
+<!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3709100, 2019-01-31T13:36:40-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BebasNeue by Dharma Type
+ * URL: https://www.myfonts.com/fonts/flat-it/bebas-neue/regular/
+ * Copyright: Copyright (c) 2010 by Ryoichi Tsunekawa. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3709100
+ * 
+ * © 2019 MyFonts Inc
+*/
+-->
+    <link rel="stylesheet"  href="mystyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:700%7COpen+Sans%7CFredericka+the+Great" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="lightslider.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://www.tcnj.edu/~fuentee1/imm-130-04-24-2018-02/js/lightslider.js"></script>
+
+    <style>
+        .viewme {
+            background-color: rgba(155, 205, 211, 0.9);
+            padding: 0 5px;
+            margin: 0 0 0 5px;
+            position: absolute;
+            bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        a.viewme {
+            color: white;
+        }
+
+        a:hover.viewme {
+            color: cornflowerblue;
+        }
+
+        #lightSlider li img {
+            max-height: 180px;
+            object-fit: contain;}
+
+        .lSSlideOuter .lSPager.lSpg>li a {
+            background-color: #dddddd;
+      }
+
+        .lSSlideOuter .lSPager.lSpg>li:hover a,
+        .lSSlideOuter .lSPager.lSpg>li.active a {
+            background-color: cornflowerblue;
+            
+        }
+    </style>
+    <title>Emily Fuentes </title>
+      <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1> <a href="index.html"> Emily Fuentes </a></h1>
+            <nav>
+                <ul>
+                    <li><a href="reel.html">Reel</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2> Featured Work!</h2>
+                <ul id="lightSlider">
+                     <li><a class="viewme" href="socialmedia_1.html">View Project</a> 
+                        <img src="images/LiveAdviceStory01.png" alt="Live Advice Segment Tile"> 
+                    </li>
+                    <li><a class="viewme" href="videos_4.html">View Project</a>
+                        <img src="images/videofour.png" alt="The Royal Flush">
+                    </li>
+                     <li><a class="viewme" href="graphics_4.html">View Project</a>
+                        <img src="images/AVB_Type1_FuentesEmily_7-1.png" alt="Philly Magazine Mock Up for Typography Course at TCNJ">
+                    </li>
+                        <li> <a class="viewme" href="videos_8.html">View Project</a><img src="images/instaad2.png" alt="24/7 Advice Ads for Babe">
+                    </li>
+                    <li><a class="viewme" href="videos_3.html">View Project</a>
+                        <img src="images/videothree.jpg" alt="Gone">
+                    </li>
+                    <li> <a class="viewme" href="graphics_2.html">View Project</a>
+                        <img src="images/Fuentes_Type_Specimen_Book_D8-1.png" alt="Goudy Type S pecimen Book for Typography Course at TCNJ">
+                    </li>
+                    <li><a class="viewme" href="videos_5.html">View Project</a>
+                        <img src="images/videofive.png" alt="Recruitment Video">
+                    </li>
+                    <li><a class="viewme" href="videos_1.html">View Project</a>
+                        <img src="images/videoone.jpg" alt="Jill Santacroe Martial Artist">
+                    </li>
+                    <li><a class="viewme" href="videos_2.html">View Project</a>
+                        <img src="images/videotwo.jpg" alt="I Remember...">
+                    </li>
+                    <li><a class="viewme" href="videos_6.html">View Project</a>
+                        <img src="images/videosix.png" alt="The Weekly What">
+                    </li>
+                    <li><a class="viewme" href="graphics_1.html">View Project</a>
+                        <img src="images/Fuentes_1icon_d12-1.png" alt="Goudy Icon Poster for Typography Course at TCNJ">
+                    </li>
+                    <li> <a class="viewme" href="graphics_3.html">View Project</a>
+                        <img src="images/Fuentes_Poster_D3-1.png" alt="Design Culture Now Poster for Typography Course at TCNJ">
+                    </li>
+                     <li><a class="viewme" href="graphics_5.html">View Project</a>
+                        <img src="images/graphicfive.png" alt="Hilton Head Magazine Mock Up for Design Fundamentals at TCNJ">
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#lightSlider').lightSlider({
+                item: 3
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
